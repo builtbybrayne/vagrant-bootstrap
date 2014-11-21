@@ -2,10 +2,5 @@
 
 echo "Installing scripts and aliases"
 
-echo $PWD
-
-cp src/.bash_aliases ${HOME}/
-cp src/.gitconfig ${HOME}/
-cp src/.inputrc ${HOME}/
-
-touch ${HOME}/.hushlogin
+cp src/* /home/vagrant/
+touch /home/vagrant/.hushlogin
