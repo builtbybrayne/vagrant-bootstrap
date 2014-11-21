@@ -20,8 +20,8 @@ alias .5='cd ../../../../..'
 alias free='free -m'
 mkcd () { mkdir -p "$@" && cd "$@"; }
 
-alias srcalias='. ~/.bash_config'
-alias mkalias='sudo nano ~/.bash_config && srcalias'
+alias srcalias='. ~/.bashrc'
+alias mkalias='sudo nano ~/.bash_aliases && srcalias'
 
 alias sudo='sudo -sE PATH=$PATH'
 alias fuck='sudo $(fc -ln -1)'
