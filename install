@@ -1,5 +1,7 @@
 #! /bin/bash
 
+echo "Installing scripts and aliases"
+
 cp src/.bash_config ~/
 echo ". ~/.bash_config" >> ~/.bashrc
 
