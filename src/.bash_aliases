@@ -117,4 +117,4 @@ function findinfiles() {
   find . -type f -print0 2>/dev/null | xargs -0 grep --color=AUTO -Hn "$1" 2>/dev/null
 }
 
-export PS1="\[$(tput bold)\]\[$(tput setaf 3)\]V≫ \[$(tput setaf 2)\]\W \[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
+export PS1="\[$(tput bold)\]\[$(tput setaf 3)\]V \[$(tput setaf 2)\]\W \[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
