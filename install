@@ -2,9 +2,7 @@
 
 echo "Installing scripts and aliases"
 
-cp src/.bash_config ~/
-echo ". ~/.bash_config" >> ~/.bashrc
-
+cp src/.bash_aliases ~/
 cp src/.gitconfig ~/
 cp src/.inputrc ~/
 
