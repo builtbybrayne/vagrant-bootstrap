@@ -2,8 +2,6 @@
 
 echo "Installing scripts and aliases"
 
-echo $PWD
-
 cp src/.bash_aliases /home/vagrant/
 cp src/.gitconfig /home/vagrant/
 cp src/.inputrc /home/vagrant/
