@@ -1,7 +1,7 @@
 #! /bin/bash
 
 cp src/.bash_config ~/
-cat ". ~/.bash_config" >> ~/.bashrc
+echo ". ~/.bash_config" >> ~/.bashrc
 
 cp src/.gitconfig ~/
 cp src/.inputrc ~/
